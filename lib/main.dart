@@ -47,7 +47,11 @@ class _AmitState extends State<Amit> {
                         )
                       ]),
                 ),
-                Image.asset('images/Amit.png'),
+                Image.asset(
+                  'images/Amit.png',
+                  height: 400,
+                  width: 400,
+                ),
                 Text(
                   'Amit Gain',
                   style: TextStyle(
